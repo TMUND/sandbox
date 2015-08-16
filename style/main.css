@@ -2,7 +2,12 @@
   background-color: black;
 }
 
-body {
-  font-size: 20px;
-  color: red;
-}
+.title {
+  position: relative;
+  margin: 0 auto;
+  clear: left;
+  height: auto;
+  z-index: 0;
+  text-align: center;
+  color: white;
+}​
