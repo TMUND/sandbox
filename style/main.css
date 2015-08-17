@@ -9,6 +9,14 @@ h1.title {
   margin: auto;
 }
 
+button.clickbutton {
+  background-color: #ADD8E6;
+}
+
+.panel-heading.clickme {
+  background-color: #ADD8E6;
+}
+
 .row-centered {
   text-align: center;
   margin-top: 20px;

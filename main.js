@@ -3,28 +3,17 @@
   window.App = {
     // ----------
     init: function() {
-      $('.btn1').on('mouseover', function() {
-        $('#panel1').fadeToggle(500);
+      $('.hoverbutton').on('mouseover', function() {
+        var panelId = $(this).attr('data-panelid');
+        $('#' + panelId).fadeToggle(500);
       });
 
-      $('.btn2').on('mouseover', function() {
-        $('#panel2').fadeToggle(500);
-      });
+      var content = "And I've changed!";
 
-      $('.btn3').on('mouseover', function() {
-        $('#panel3').fadeToggle(500);
-      });
-
-      $('.btn4').on('click', function() {
-        $('#panel4').fadeToggle(500);
-      });
-
-      $('.btn5').on('click', function() {
-        $('#panel5').fadeToggle(500);
-      });
-
-      $('.btn6').on('click', function() {
-        $('#panel6').fadeToggle(500);
+      $('.clickbutton').on('click', function() {
+        var panelId = $(this).attr('data-panelid');
+        $('#' + panelId).toggle();
+        $('#' + panelId + ' .panel-body').html(content);
       });
     }
   };
