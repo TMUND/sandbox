@@ -29,3 +29,45 @@ button.clickbutton {
   margin-right: -4px;
   margin-top: 10px;
 }
+
+.tab-panels {
+  /*width: auto;*/
+}
+
+.tab-panels ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-panels ul li {
+  list-style-type: none;
+  display: inline-block;
+  background: #337ab7;
+  margin: 0;
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.tab-panels ul li:hover {
+  color: #fff;
+  background: #265a88;
+}
+
+.tab-panels ul li.active {
+  color: #fff;
+  background: #265a88;
+}
+
+.tab-panels .tab-panel {
+  display:none;
+  background: #ADD8E6;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.tab-panels .tab-panel.active {
+  display:block;
+}
