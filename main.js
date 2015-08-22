@@ -45,7 +45,7 @@
 
       var width = 800;
       var animationSpeed = 1000;
-      var pause = 2000;
+      var pause = 3000;
       var currentSlide = 1;
 
       var $mySlider = $('#myslider');
