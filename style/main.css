@@ -30,9 +30,7 @@ button.clickbutton {
   margin-top: 10px;
 }
 
-.tab-panels {
-  /*width: auto;*/
-}
+</* Tab Example CSS */
 
 .tab-panels ul {
   margin: 0;
@@ -70,4 +68,35 @@ button.clickbutton {
 
 .tab-panels .tab-panel.active {
   display:block;
+}
+
+</* Slider Example CSS */
+
+.mytitle {
+  font-size: 20px;
+  font-color: #fff;
+  text-align: center;
+}
+
+#myslider {
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#myslider .myslides {
+  display: block;
+  width: 15000px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+#myslider .myslide {
+  float: left;
+  list-style-type: none;
+  width: 800px;
+  height: 600px;
 }
