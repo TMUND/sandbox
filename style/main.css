@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #78AB46;
+}
+
+h1.title {
+  text-align: center;
+  margin: auto;
+}
+
+button.clickbutton {
+  background-color: #ADD8E6;
+}
+
+.panel-heading.clickme {
+  background-color: #ADD8E6;
+}
+
+.row-centered {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: center;
+  margin-right: -4px;
+  margin-top: 10px;
+}
+
+</* Tab Example CSS */
+
+.tab-panels ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-panels ul li {
+  list-style-type: none;
+  display: inline-block;
+  background: #337ab7;
+  margin: 0;
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.tab-panels ul li:hover {
+  color: #fff;
+  background: #265a88;
+}
+
+.tab-panels ul li.active {
+  color: #fff;
+  background: #265a88;
+}
+
+.tab-panels .tab-panel {
+  display:none;
+  background: #ADD8E6;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.tab-panels .tab-panel.active {
+  display:block;
+}
+
+</* Slider Example CSS */
+
+.mytitle {
+  font-size: 20px;
+  font-color: #fff;
+  text-align: center;
+}
+
+#myslider {
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#myslider .myslides {
+  display: block;
+  width: 15000px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+#myslider .myslide {
+  float: left;
+  list-style-type: none;
+  width: 800px;
+  height: 600px;
+}

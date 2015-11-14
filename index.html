@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sandbox Playground</title>
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="lib/jquery-2.1.4.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1 class="title">Jquery &amp; Bootstrap Sandbox</h1>
+        <div class="row row-centered">
+          <div class="col-sm-4 col-centered">
+            <button class="btn btn-primary btn-block hoverbutton" data-panelid="panel1">Hover over me!</button>
+          </div>
+          <div class="col-sm-4 col-centered">
+            <button class="btn btn-primary btn-block hoverbutton" data-panelid="panel2">Hover over me!</button>
+          </div>
+          <div class="col-sm-4 col-centered">
+            <button class="btn btn-primary btn-block hoverbutton" data-panelid="panel3">Hover over me!</button>
+          </div>
+          <div class="col-sm-4 col-centered">
+            <button class="btn btn-primary btn-block clickbutton" data-panelid="panel4">Click me!</button>
+          </div>
+          <div class="col-sm-4 col-centered">
+            <button class="btn btn-primary btn-block clickbutton" data-panelid="panel5">Click me!</button>
+          </div>
+          <div class="col-sm-4 col-centered">
+            <button class="btn btn-primary btn-block clickbutton" data-panelid="panel6">Click me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-centered">
+        <div class="col-sm-4 col-centered">
+          <div id="panel1" class="panel panel-primary">
+            <div class="panel-heading">Panel One</div>
+            <div class="panel-body">Silly Content</div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-centered">
+          <div id="panel2" class="panel panel-primary">
+            <div class="panel-heading">Panel Two</div>
+            <div class="panel-body">Silly Content</div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-centered">
+          <div id="panel3" class="panel panel-primary">
+            <div class="panel-heading">Panel Three</div>
+            <div class="panel-body">Silly Content</div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-centered">
+          <div id="panel4" class="panel panel-primary">
+            <div class="panel-heading clickme">Panel Four</div>
+            <div class="panel-body">Look at me!</div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-centered">
+          <div id="panel5" class="panel panel-primary">
+            <div class="panel-heading clickme">Panel Five</div>
+            <div class="panel-body">Look at me!</div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-centered">
+          <div id="panel6" class="panel panel-primary">
+            <div class="panel-heading clickme">Panel Six</div>
+            <div class="panel-body">Look at me!</div>
+          </div>
+        </div>
+
+        <div class="tab-panels col-sm-4 col-centered">
+          <ul class="tabs">
+            <li rel="tab-panel1" class="active"># 1</li>
+            <li rel="tab-panel2"># 2</li>
+            <li rel="tab-panel3"># 3</li>
+            <li rel="tab-panel4"># 4</li>
+          </ul>
+
+          <div id="tab-panel1" class="tab-panel active">
+            Silly Content Goes Here #1<br/>
+            Silly Content Goes Here #1<br/>
+            Silly Content Goes Here #1<br/>
+            Silly Content Goes Here #1<br/>
+            Silly Content Goes Here #1<br/>
+          </div>
+
+          <div id="tab-panel2" class="tab-panel">
+            Something else #2<br/>
+            Something else #2<br/>
+            Something else #2<br/>
+            Something else #2<br/>
+            Something else #2<br/>
+          </div>
+
+          <div id="tab-panel3" class="tab-panel">
+            Oh noes! #3<br/>
+            Oh noes! #3<br/>
+            Oh noes! #3<br/>
+            Oh noes! #3<br/>
+            Oh noes! #3<br/>
+          </div>
+
+          <div id="tab-panel4" class="tab-panel">
+            Who What Were #4<br/>
+            Who What Were #4<br/>
+            Who What Were #4<br/>
+            Who What Were #4<br/>
+            Who What Were #4<br/>
+          </div>
+        </div>
+      </div>
+
+      <div class="mytitle">Slider Example
+        <div id="myslider">
+          <ul class="myslides">
+            <li class="myslide"><img src="img/cat1.jpg"/></li>
+            <li class="myslide"><img src="img/catday1.jpg"/></li>
+            <li class="myslide"><img src="img/cat2.jpg"/></li>
+            <li class="myslide"><img src="img/catday2.jpg"/></li>
+            <li class="myslide"><img src="img/cat3.jpg"/></li>
+            <li class="myslide"><img src="img/catday3.jpg"/></li>
+            <li class="myslide"><img src="img/cat4.jpg"/></li>
+            <li class="myslide"><img src="img/catday4.jpg"/></li>
+            <li class="myslide"><img src="img/cat5.jpg"/></li>
+            <li class="myslide"><img src="img/catday5.jpg"/></li>
+            <li class="myslide"><img src="img/cat6.jpg"/></li>
+            <li class="myslide"><img src="img/catday6.jpg"/></li>
+            <li class="myslide"><img src="img/cat1.jpg"/></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
